@@ -1,6 +1,7 @@
 # UA-Cumulative-Spend
 ![image](https://user-images.githubusercontent.com/104884127/224625987-37d00cf4-0563-4ac1-bfbf-6c14ec6ba63e.png)
-Assumption: Order of columns selected in looker - Date, Daily Spend, Cumulative Spend. 
+Assumption: Order of columns selected in looker - Date, Daily Spend, Cumulative Spend, Max Date. 
+<br>Projection Spend = (MTD Spend) * (Number of days in the month) / (Number of Days completed in current month)
 </br>Data Selected in Looker : 
 Date is a dimenion, Spend is a measure and Cumulative Spend is a table calculation.
 Cumulative Spend formula : running_total(${view_grouped_tracking_event.cdspend})
