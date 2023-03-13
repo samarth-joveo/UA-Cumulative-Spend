@@ -5,7 +5,7 @@ Assumption: Order of columns selected in looker - Date, Max Date, Daily Spend, C
 </br>Data Selected in Looker : 
 Date is a dimenion, Spend is a measure and Cumulative Spend is a table calculation.
 Cumulative Spend formula : running_total(${view_grouped_tracking_event.cdspend})
-![image](https://user-images.githubusercontent.com/104884127/224626501-fee83e1c-141b-4eba-8d4e-532df1ca8c58.png)
+![image](https://user-images.githubusercontent.com/104884127/224633870-87ac2497-172d-4b78-ac40-95ee74597352.png)
 Format of the data flowing to looker custom visual :
 </br>data = [</br>
 { 'Date':{ 'value' : '2023-01-01' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 100 } },</br>
