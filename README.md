@@ -13,3 +13,11 @@ Format of the data flowing to looker custom visual :
 { 'Date':{ 'value' : '2023-01-03' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 300 }, 'budget_cap' : {'value' : 20} },</br>
 { 'Date':{ 'value' : '2023-01-04' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 400 }, 'budget_cap' : {'value' : 20} }</br>
 ]</br>
+
+
+</br>data = [</br>
+{ 'Date':{ 'value' : '2023-01-01' } ,  'career_site' : { 'value' : 1 } , 'organic' : { 'value' : 1 } , 'paid' : { 'value' : 1 } },</br>
+{ 'Date':{ 'value' : '2023-01-02' } ,  'career_site' : { 'value' : 2 } , 'organic' : { 'value' : 3 } , 'paid' : { 'value' : 5 } },</br>
+{ 'Date':{ 'value' : '2023-01-03' } ,  'career_site' : { 'value' : 5 } , 'organic' : { 'value' : 7 } , 'paid' : { 'value' : 9 } },</br>
+{ 'Date':{ 'value' : '2023-01-04' } ,  'career_site' : { 'value' : 7 } , 'organic' : { 'value' : 10 } , 'paid' : { 'value' : 13 } }</br>
+]</br>
