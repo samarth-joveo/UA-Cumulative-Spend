@@ -8,8 +8,8 @@ Cumulative Spend formula : running_total(${view_grouped_tracking_event.cdspend})
 ![image](https://user-images.githubusercontent.com/104884127/224633870-87ac2497-172d-4b78-ac40-95ee74597352.png)
 Format of the data flowing to looker custom visual :
 </br>data = [</br>
-{ 'Date':{ 'value' : '2023-01-01' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 100 } },</br>
-{ 'Date':{ 'value' : '2023-01-02' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 200 } },</br>
-{ 'Date':{ 'value' : '2023-01-03' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 300 } },</br>
-{ 'Date':{ 'value' : '2023-01-04' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 400 } }</br>
+{ 'Date':{ 'value' : '2023-01-01' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 100 }, 'budget_cap' : {'value' : 20} },</br>
+{ 'Date':{ 'value' : '2023-01-02' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 200 }, 'budget_cap' : {'value' : 20} },</br>
+{ 'Date':{ 'value' : '2023-01-03' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 300 }, 'budget_cap' : {'value' : 20} },</br>
+{ 'Date':{ 'value' : '2023-01-04' } ,  'max_date' : { 'value' : '2023-01-15' } , 'spend' : { 'value' : 100 } , 'cumulative_spend' : { 'value' : 400 }, 'budget_cap' : {'value' : 20} }</br>
 ]</br>
